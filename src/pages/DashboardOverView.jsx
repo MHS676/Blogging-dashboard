@@ -116,6 +116,7 @@ const [totalUsers, setTotalUsers] = useState(0);
             <p className=''>
               Admin
             </p>
+            <p>1</p>
           </div>
 
           <div className='bg-orange-100 py-6 rounded-sm space-y-1 flex flex-col items-center shadow-sm'>

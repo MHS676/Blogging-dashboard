@@ -55,9 +55,16 @@ const Comments = () => {
     }));
   };
 
+  // Toggle comments for each blog
   const toggleAccordion = (blogId) => {
-    if (!comments[blogId]) {
-      fetchComments(blogId);
+    if (comments[blogId]) {
+      setComments((prev) => {
+        const newComments = { ...prev };
+        delete newComments[blogId]; // Hide the comments by removing them from the state
+        return newComments;
+      });
+    } else {
+      fetchComments(blogId); // Show the comments by fetching them if not already loaded
     }
   };
 

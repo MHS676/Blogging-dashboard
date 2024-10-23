@@ -105,7 +105,7 @@ const Dashboard = () => {
                   : "text-base-content flex items-center p-2 rounded hover:bg-base-300"
               }
             >
-              <IoSettings className="mr-2" /> Site Settings
+              <IoSettings className="mr-2" /> Profile
             </NavLink>
           </li>
           <li className="mt-auto">
