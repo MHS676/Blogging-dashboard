@@ -1,4 +1,4 @@
-Live Site: Access the live site at: [https://your-live-site-url.com](blogging-dashboard.vercel.app).
+Live Site: Access the live site at: [https://your-live-site-url.com](blogging-dashboard.vercel.app/).
 
 This is the admin panel for a blogging platform, where admins can manage user content, oversee community guidelines, and moderate platform activity. This README will guide you through the setup and usage of the application.
 
